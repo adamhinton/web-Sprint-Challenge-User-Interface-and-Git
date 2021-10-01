@@ -208,6 +208,7 @@ footer nav a {
 }
 
 .a1, .a2, .a3, .a4{
+    display:flex;
     flex-wrap:wrap;
     width:48%;
     border-bottom:3px dotted black;
@@ -220,7 +221,6 @@ margin-top:2%;
 }
 
 .learnmore{
-    display:inline-block;
     border:2px solid black;
     margin-top:3%;
     padding:2% 5%;
