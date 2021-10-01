@@ -122,6 +122,7 @@ header{
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
@@ -132,7 +133,7 @@ header{
     justify-content: center;
 }
 
-/* I feel like there should be a better way to do this but it escapes me. I've assigned an individual class to each box and will add the color manually like shown below. */
+/* I feel like there should be a better way to do this but it escapes me. I've assigned an individual class to each box and added the color manually like shown below. */
 .box1{background-color:teal ;}
 .box2{background-color:gold;}
 .box3{background-color: cadetblue;}
@@ -179,8 +180,6 @@ footer nav a {
 }
 
 /* This is the about page now */
-
-/* Need to figure out how to fix bg img and make it the right size */
 .aboutheader{
     margin-top:4%;
     margin-bottom:3%;
