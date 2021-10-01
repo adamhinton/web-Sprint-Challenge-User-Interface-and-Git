@@ -85,7 +85,6 @@ text-decoration: none;;
 }
 
 header{
-    border:1px solid red;
     margin-top:4%;
     margin-bottom:3%;
     height:100px;
@@ -181,9 +180,10 @@ footer nav a {
 
 /* This is the about page now */
 
-/* Need to figure out how to change this bg img */
+/* Need to figure out how to fix bg img and make it the right size */
 .aboutheader{
-    background-image: url(../img/jumbo-about.png)
+    margin-top:4%;
+    margin-bottom:3%;
 }
 
 #About{
