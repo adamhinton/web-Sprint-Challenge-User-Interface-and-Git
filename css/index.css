@@ -190,6 +190,7 @@ footer nav a {
 #About{
     margin-bottom:2%;
     border-bottom: 3px dotted black;
+    padding-bottom: 2%;
 }
 
 #products{
@@ -198,25 +199,33 @@ footer nav a {
 .firstrow{
     display:flex;
     padding:2%;
+    justify-content:space-between;
 }
 
 .a1, .a2{
     flex-wrap:wrap;
     width:48%;
-    margin:2%;
+    border-bottom:3px dotted black;
+    padding:.5%;
 }
 
 .secondrow{
     display:flex;
-    border-top: 3px dotted black;
-    border-bottom: 3px dotted black;
     padding:2%;
+    justify-content:space-between;
 }
 
 .a3, .a4{
     flex-wrap:wrap;
     width:48%;
-    margin:2%;
+    border-bottom:3px dotted black;
+    padding:2%;
+    
+}
+
+button{
+    margin-top: 3%;
+    margin-bottom:3%;
 }
 
 .end{
